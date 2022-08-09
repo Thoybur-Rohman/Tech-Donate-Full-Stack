@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "G-DM Sans-n5";
+  font-display: swap;
+  src: url('../data/fonts/dmsans_v10_rP2Cp2ywxg089UriAWCrOB-sClQX6Cg.ttf');
+}
+@font-face {
+  font-family: "G-DM Sans-n4";
+  font-display: swap;
+  src: url('../data/fonts/dmsans_v10_rP2Hp2ywxg089UriOZSCHBeHFl0.ttf');
+}
+@font-face {
+  font-family: "G-DM Sans-n7";
+  font-display: swap;
+  src: url('../data/fonts/dmsans_v10_rP2Cp2ywxg089UriASitOB-sClQX6Cg.ttf');
+}

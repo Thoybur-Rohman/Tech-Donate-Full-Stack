@@ -1,0 +1,1 @@
+;(function(global) { global.DATA = {"page":{"canvas":{"props":{"storedElements":[]},"type":"Canvas","v":"2.1"}},"token":"1645557696.2837-1289431","last_update":"1645557696","component_version":null,"is_component":"0","components_master_ids":[],"code_sync":{"bundles":[],"components":[],"presets":[]},"_links":{}}; })(window);

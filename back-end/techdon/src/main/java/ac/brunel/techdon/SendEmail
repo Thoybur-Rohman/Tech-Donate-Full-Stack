@@ -1,0 +1,56 @@
+@Autowired
+	    private JavaMailSender mailSender;
+
+@PostMapping("/recipient/{email}")
+	public ResponseEntity<?>  email(@PathVariable(value = "email") String email){
+		try {
+				sendEmailforget(email,otp);
+			} catch (UnsupportedEncodingException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (MessagingException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			return ResponseEntity.ok(new MessageResponse("Email sent."));
+			//System.out.print(otp1());
+			//System.out.print("saad you did first step");
+		
+		else {
+			return ResponseEntity.badRequest()
+					.body("Invalid email - email does not exists in database"); {
+
+
+
+
+
+
+
+
+public void sendEmail(String recipientEmail, String link)
+  throws MessagingException, UnsupportedEncodingException {
+MimeMessage message = mailSender.createMimeMessage();              
+MimeMessageHelper helper = new MimeMessageHelper(message);
+
+helper.setFrom("techdon.noreply@gmail.com");
+helper.setTo(recipientEmail);
+
+String subject = "Welcome to Tech Don";
+
+String content = "<p> Dear </p>" 
+      + "<p>Hi, we hope you are doing good."
+      + "<p>Congartulations! You have been selected and your device is waiting for you."
+      + "<p>Login to techdon.com and find out how you can receive it.
+      + "Thank You"
+      + "<br>"
+      + "<p> Regards"
+      + " Team Tech Don </p>"
+      ;
+
+helper.setSubject(subject);
+
+helper.setText(content, true);
+
+mailSender.send(message);
+}

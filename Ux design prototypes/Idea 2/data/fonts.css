@@ -1,0 +1,25 @@
+@font-face {
+  font-family: G-Roboto-i7;
+  font-display: swap;
+  src: url('../data/fonts/roboto_v29_KFOjCnqEu92Fr1Mu51TzBhc9AMX6lJBP.ttf');
+}
+@font-face {
+  font-family: "G-IBM Plex Sans-n7";
+  font-display: swap;
+  src: url('../data/fonts/ibmplexsans_v13_zYX9KVElMYYaJe8bpLHnCwDKjWr7MIZmdd_qFmo.ttf');
+}
+@font-face {
+  font-family: G-Asset-n4;
+  font-display: swap;
+  src: url('../data/fonts/asset_v22_SLXGc1na-mM4cWImRJqExst1.ttf');
+}
+@font-face {
+  font-family: "G-IBM Plex Sans-n5";
+  font-display: swap;
+  src: url('../data/fonts/ibmplexsans_v13_zYX9KVElMYYaJe8bpLHnCwDKjSL9MIZmdd_qFmo.ttf');
+}
+@font-face {
+  font-family: "G-DM Sans-n4";
+  font-display: swap;
+  src: url('../data/fonts/dmsans_v10_rP2Hp2ywxg089UriOZSCHBeHFl0.ttf');
+}

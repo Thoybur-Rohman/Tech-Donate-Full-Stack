@@ -1,0 +1,1 @@
+;(function(global) { global.DATA = [{"name":"Museum","id_page":148057077,"mtime":1645581566,"component_version":"","parent":null,"version_of":null,"version_type":0,"main_version":"0","sort_order":4,"is_active":1,"is_hidden":0,"color":"","documentationExists":false,"shot":"https:\/\/s3.amazonaws.com\/mfc.uxpin\/a\/4\/8\/6\/49d5ddbe743d37745b224a79ed2ee375bfb3.jpg"}]; })(window);
