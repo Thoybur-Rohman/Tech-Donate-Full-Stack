@@ -23,7 +23,7 @@ Ahmed Alkhazraji | 2045016 | Finish email (40%) – till next meeting  , Contact
 Alek Rifai | 2033603 | Back-end: Fully functional account system, users can register, login, persistent storage of user-related information, user register, login, logout, updatesettings, delete account API enpoints, testing of backend functionalities |
 Nawal Malik | 1934729 | Set donation preferences , View offered device (Accept / Decline buttons as well)|
 Nusrat Keyka | 1843832 | List new device page ,  View device you've listed , Update device  , Connect to the back end. | connect to database|
-Philipp Bibik | 1943513 | Back-end: REST API documentation, DB interface, queue system, all student / donor specific conrollers & endpoints, majority of system and object design, API unit testing, component testing; Front-end: preferences page, view & remove listed devices, view & accept & decline offered devices, back-end interfaces & integration |
+--- | --- | Back-end: REST API documentation, DB interface, queue system, all student / donor specific conrollers & endpoints, majority of system and object design, API unit testing, component testing; Front-end: preferences page, view & remove listed devices, view & accept & decline offered devices, back-end interfaces & integration |
 Thoybur Rohman | 2026156 | Back-end: REST API documentation, Controller class set up , CORS configuration , SMTP email . Testing Back End , Front-end : dynamic navBar  , Login page , Registartion page , Upload device page , Home page , Front end structure . Post man peer testing and Testing Front end.|
 
 ---
